@@ -1,0 +1,23 @@
+{
+  "name": "ng2-firebase",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpadjen/ng2-fb.git"
+  },
+  "keywords": [
+    "angular2",
+    "firebase"
+  ],
+  "author": "Tim Padjen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpadjen/ng2-fb/issues"
+  },
+  "homepage": "https://github.com/tpadjen/ng2-fb#readme"
+}
