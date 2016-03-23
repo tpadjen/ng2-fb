@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepublish": "typings install && tsc && node make.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
