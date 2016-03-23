@@ -12,6 +12,12 @@
   },
   "files": [
     "typings/main.d.ts",
-    "ng2-firebase.ts"
-  ]
+    "ng2-firebase.ts",
+    "./src/extend.ts",
+    "./src/firebase-data.ts",
+    "./src/firebase-model.ts",
+    "./src/ng2-firebase.ts"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
 }
