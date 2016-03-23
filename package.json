@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tpadjen/ng2-fb.git"
+    "url": "git+https://github.com/tpadjen/ng2-firebase-observables.git"
   },
   "keywords": [
     "angular2",
@@ -47,7 +47,7 @@
   "author": "Tim Padjen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tpadjen/ng2-fb/issues"
+    "url": "https://github.com/tpadjen/ng2-firebase-observables/issues"
   },
-  "homepage": "https://github.com/tpadjen/ng2-fb#readme"
+  "homepage": "https://github.com/tpadjen/ng2-firebase-observables#readme"
 }
