@@ -6,3 +6,13 @@ typings
 *.map
 *.d.ts
 bundles/
+
+# common
+npm-debug.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+**/.DS_Store
