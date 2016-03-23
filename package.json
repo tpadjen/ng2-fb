@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepublish": "typings install && tsc && node make.js",
+    "prepublish": "rimraf typings && typings install && tsc && node make.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
@@ -28,6 +28,7 @@
     "karma-jasmine": "~0.3.8",
     "karma-typescript-preprocessor": "0.0.21",
     "reflect-metadata": "0.1.2",
+    "rimraf": "^2.5.2",
     "rxjs": "5.0.0-beta.2",
     "systemjs": "~0.19.24",
     "systemjs-builder": "^0.15.13",
