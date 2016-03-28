@@ -140,7 +140,9 @@ export class Ng2Firebase {
         observer.next(arr.slice());
         lastIdInSnapshot = keys[keys.length-1];
 
-        ref.limitToLast(1).on('child_added', child_added);
+        ref.orderByKey()
+           .startAt(lastIdInSnapshot)
+           .on('child_added', child_added);
         ref.on('child_changed', child_changed);
         ref.on('child_removed', child_removed);
         ref.on('child_moved', child_moved);
