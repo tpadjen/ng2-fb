@@ -74,7 +74,7 @@ export class Ng2Firebase {
       let lastIdInSnapshot = null;
 
       function child_added(snapshot: FirebaseDataSnapshot, prevChildKey: string) {
-        if (snapshot.key() === lastIdInSnapshot) return;
+        if (snapshot.key().toString() === lastIdInSnapshot.toString()) return;
 
         let child = snapshot.val();
         child[keyFieldName] = snapshot.key();
